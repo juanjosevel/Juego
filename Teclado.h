@@ -22,7 +22,7 @@ namespace juego {
         private:
             Teclado() {};
             Teclado(const Teclado&) = delete;
-            //Keyboard& operator=(const Keyboard&) = delete;
+            
         };
     }
 } 
