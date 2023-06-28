@@ -30,9 +30,8 @@ namespace juego {
 
             void draw();
         };
-
-    } /* namespace view */
-} /* namespace si */
+    }
+}
 
 #endif
 
