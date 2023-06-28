@@ -21,7 +21,7 @@ namespace juego {
                 const Size size = Size(3, 2), const unsigned int hp = 10,
                 const unsigned int speed = 1);
             bool update();
-            void move(const bool);
+            void sacaCarta(const bool);
             void hit(const unsigned int hp = 1);
 
             Position getPosition() const { return pos_; }
