@@ -22,8 +22,6 @@ namespace juego {
                 const unsigned int speed = 1);
             bool update();
             void sacaCarta(const bool);
-            void hit(const unsigned int hp = 1);
-
             Position getPosition() const { return pos_; }
         };
 
