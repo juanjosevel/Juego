@@ -1,8 +1,6 @@
 #ifndef ESCENARIO_H_
 #define ESCENARIO_H_
 
-
-
 #include "ElementoJuego.h"
 #include "Jugador.h"
 #include <list>
@@ -15,8 +13,6 @@ namespace juego {
         using std::shared_ptr;
 
         class Escenario : public ElementoJuego {
-
-
             typedef std::list<shared_ptr<ElementoJuego> > EntityList;
 
         private:
@@ -31,7 +27,6 @@ namespace juego {
             shared_ptr<EntityList> get_tipoCarta() const { return tipoCarta; }
             shared_ptr<EntityList> get_cartas() const { return cartas; }
         };
-
     }
 }
 #endif
