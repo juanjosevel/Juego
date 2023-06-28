@@ -5,9 +5,6 @@
 
 #include "ElementoJuego.h"
 #include "Jugador.h"
-//#include "EnemyShip.h"
-//#include "Bullet.h"
-
 #include <list>
 #include <memory>
 #include <cassert>
