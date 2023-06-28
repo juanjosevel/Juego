@@ -3,7 +3,7 @@
 namespace juego {
     namespace modelo {
 
-        Jugador::Jugador(const Position pos)
+        Jugador::Jugador(const Posicion pos)
             : pos_(pos)
         {
         }
