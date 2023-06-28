@@ -43,14 +43,5 @@ namespace juego {
                 }
             }
         }
-
-         void Jugador::hit(const unsigned int hp)
-        {
-            if (hp_ - hp <= 0) {
-                hp_ = 0;
-            }
-            hp_ -= hp;
-        }
-
     }
 } 
