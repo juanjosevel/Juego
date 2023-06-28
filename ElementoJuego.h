@@ -13,12 +13,9 @@ namespace juego {
             typedef util::Vector2D<unsigned int> Position;
             typedef util::Vector2D<unsigned int> Size;
 
-             virtual ~ElementoJuego() {}
-
-
+            virtual ~ElementoJuego() {}
             virtual bool update() = 0;
-
-             virtual Position getPosition() const = 0;
+            virtual Position getPosition() const = 0;
         };
 
     }
