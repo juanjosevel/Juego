@@ -1,11 +1,5 @@
-
 #include <SFML/Graphics.hpp>
 
- /*
-  * Singleton class:
-  * For desgin considerations see:
-  * https://stackoverflow.com/questions/1008019/c-singleton-design-pattern
-  */
 namespace juego {
     namespace controlador {
 
