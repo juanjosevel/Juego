@@ -29,7 +29,7 @@ namespace juego {
             bool update();
             Position getPosition() const { return Position(); }
             shared_ptr<Jugador> getPS() const { return ps_; }
-            shared_ptr<EntityList> get_enemyships() const { return tipoCarta; }
+            shared_ptr<EntityList> get_tipoCarta() const { return tipoCarta; }
             shared_ptr<EntityList> get_cartas() const { return cartas; }
         };
 
