@@ -1,12 +1,3 @@
-/**
- * @file
- *      Small class which can hold 2 objects of the same type.
- *      Handy for grid positions or object sizes in 2D fields.
- *
- * @author
- *      Olivier Brewaeys
- */
-
 #ifndef VECTOR2D_H_
 #define VECTOR2D_H_
 
