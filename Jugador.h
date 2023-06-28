@@ -10,15 +10,8 @@ namespace juego {
         class Jugador : public ElementoJuego {
         private:
             Position pos_;
-            Size size_;
-            unsigned int hp_;
-            unsigned int speed_;
-
         public:
-
-            Jugador(const Position pos = Position(8, 19),
-                const Size size = Size(3, 2), const unsigned int hp = 10,
-                const unsigned int speed = 1);
+            Jugador(const Position pos = Position(8, 19));
             bool update();
             void sacaCarta(const bool);
             Position getPosition() const { return pos_; }
