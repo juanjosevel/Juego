@@ -5,8 +5,6 @@ namespace juego {
 
         Escenario::Escenario()
             : ps_(std::make_shared<Jugador>())
-            , enemyships_(std::make_shared<EntityList>())
-            , bullets_(std::make_shared<EntityList>())
         {
         }
 
