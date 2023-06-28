@@ -22,7 +22,7 @@ namespace juego {
             }
         }
 
-        void Jugador::move(const bool right)
+        void Jugador::sacaCarta(const bool right)
         {
             if (right) {
                 unsigned int new_x = pos_.x + speed_;
