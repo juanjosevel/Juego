@@ -3,12 +3,8 @@
 namespace juego {
     namespace modelo {
 
-        Jugador::Jugador(const Position pos, const Size size,
-            const unsigned int hp, const unsigned int speed)
+        Jugador::Jugador(const Position pos)
             : pos_(pos)
-            , size_(size)
-            , hp_(hp)
-            , speed_(speed)
         {
         }
 
