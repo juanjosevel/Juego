@@ -25,8 +25,7 @@ namespace juego {
             shared_ptr<EntityList> cartas;
 
         public:
-            Escenario();
-            bool update();
+            Escenario();            
             Position getPosition() const { return Position(); }
             shared_ptr<Jugador> getPS() const { return ps_; }
             shared_ptr<EntityList> get_tipoCarta() const { return tipoCarta; }
