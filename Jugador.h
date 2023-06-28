@@ -11,12 +11,10 @@ namespace juego {
         private:
             Position pos_;
         public:
-            Jugador(const Position pos = Position(8, 19));
-            bool update();
+            Jugador(const Position pos = Position(8, 19)); 
             void sacaCarta(const bool);
             Position getPosition() const { return pos_; }
         };
-
     }
 }
 
