@@ -30,7 +30,7 @@ namespace juego {
             Position getPosition() const { return Position(); }
             shared_ptr<Jugador> getPS() const { return ps_; }
             shared_ptr<EntityList> get_enemyships() const { return enemyships_; }
-            shared_ptr<EntityList> get_bullets() const { return cartas; }
+            shared_ptr<EntityList> get_cartas() const { return cartas; }
         };
 
     }
