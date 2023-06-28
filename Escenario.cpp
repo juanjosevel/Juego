@@ -13,10 +13,10 @@ namespace juego {
         bool Escenario::update()
         {
             if (ps_->update()) {
-                for (auto it = enemyships_->begin(); it != enemyships_->end();
+                for (auto it = tipoCarta->begin(); it != tipoCarta->end();
                     ++it) {
                     if (!(*it)->update()) {
-                        enemyships_->erase(it);
+                        tipoCarta->erase(it);
                     }
                 }
                 for (auto it = cartas->begin(); it != cartas->end(); ++it) {
