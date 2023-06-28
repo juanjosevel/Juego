@@ -2,7 +2,6 @@
 #define JUGADOR_H_
 
 #include "ElementoJuego.h"
-//#include "Bullet.h"
 #include "Vector2D.h"
 
 namespace juego {
