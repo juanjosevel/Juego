@@ -9,11 +9,11 @@ namespace juego {
 
         class Jugador : public ElementoJuego {
         private:
-            Position pos_;
+            Posicion pos_;
         public:
-            Jugador(const Position pos = Position(8, 19)); 
+            Jugador(const Posicion pos = Posicion(8, 19)); 
             void sacaCarta(const bool);
-            Position getPosition() const { return pos_; }
+            Posicion getPosition() const { return pos_; }
         };
     }
 }
