@@ -19,9 +19,9 @@ namespace juego {
                         enemyships_->erase(it);
                     }
                 }
-                for (auto it = bullets_->begin(); it != bullets_->end(); ++it) {
+                for (auto it = cartas->begin(); it != cartas->end(); ++it) {
                     if (!(*it)->update()) {
-                        bullets_->erase(it);
+                        cartas->erase(it);
                     }
                 }
                 return true;
