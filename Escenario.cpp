@@ -4,13 +4,13 @@ namespace juego {
     namespace modelo {
 
         Escenario::Escenario()
-            : jugador1(std::make_shared<Jugador>())
+            : jugador_en_turno(std::make_shared<Jugador>())
         {
         }
 
         bool Escenario::update()
         {
-            if (jugador1->update()) {
+            if (jugador_en_turno->update()) {
                 for (auto it = tipoCarta->begin(); it != tipoCarta->end();
                     ++it) {
                     if (!(*it)->update()) {
