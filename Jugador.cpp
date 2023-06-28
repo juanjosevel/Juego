@@ -22,26 +22,9 @@ namespace juego {
             }
         }
 
-        void Jugador::sacaCarta(const bool right)
+        void Jugador::sacaCarta(const bool temp_carta)
         {
-            if (right) {
-                unsigned int new_x = pos_.x + speed_;
-                if (new_x >= 15) {
-                    pos_.x = 14;
-                }
-                else {
-                    pos_.x = new_x;
-                }
-            }
-            else {
-                unsigned int new_x = pos_.x - speed_;
-                if (new_x <= 0) {
-                    pos_.x = 1;
-                }
-                else {
-                    pos_.x = new_x;
-                }
-            }
+
         }
     }
 } 
